@@ -1,0 +1,689 @@
+.header-image-container{
+    width: 100%;
+    height: 710px;
+    
+}
+.header-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Nav container */
+
+
+#nav-container{
+    margin-top: -700px;
+}
+#nav-dummy1{
+    height: 100%;
+    width: 100%;
+    
+}
+#nav-dummy2 h1{
+color: white;
+    
+}
+#nav-dummy2
+
+#nav-dummy3{
+    height: 100%;
+    width: 100%;
+    
+}
+#nav-dummy4{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-dummy4 h1{
+    color: white;
+}
+
+#nav-dummy5{
+    height: 100%;
+    width: 100%;
+    
+}
+#gettheapp-text{
+    font-size: 25px;
+}
+#nav-text1{
+    font-size: 25px;
+}
+#nav-text2{
+    font-size: 25px;
+    
+}
+#nav-text3{
+    font-size: 25px;
+}
+#nav-text4{
+    font-size: 25px;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050; /* Higher z-index to ensure it is on top */
+}
+
+
+/* Add this CSS code to your stylesheet */
+
+/* Add this CSS code to your stylesheet */
+body::after {
+    content: "Extra small: <576px";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: black;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+
+@media (min-width: 576px) {
+  body::after {
+    content: "Small: ≥576px";
+}
+}
+  
+@media (min-width: 768px) {
+body::after {
+    content: "Medium: ≥768px";
+}
+}
+  
+@media (min-width: 992px) {
+body::after {
+      content: "Large: ≥992px";
+}
+}
+  
+@media (min-width: 1200px) {
+body::after {
+    content: "Extra Large: ≥1200px";
+}
+}
+  
+@media (min-width: 1400px) {
+body::after {
+    content: "XXL: ≥1400px";
+}
+}
+
+/*zomato logo*/
+#header-logo-dummy2{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#header-logo-dummy1{
+    height: 100px;  
+}
+#header-logo-dummy3{
+    height: 100px; 
+}
+
+
+#logo-dummy1{
+    height: 100%;
+    width: 100%;
+    
+}
+#logo-original{
+    height: 100%;
+    width: 100%;
+   
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#logo-original img{
+    height: 80px;
+    width: 300px;
+    position: relative;
+}
+#logo-dummy3{
+    height: 100%;
+    width: 100%;
+    
+
+}
+#logo-container{
+    margin-top: 150px;
+}
+.col-md-12{
+    height: 100px;
+}
+
+/*header discover food text*/
+#discover-text{
+    margin-top: 50px;
+}
+#discover-text-dummy1{
+    height: 100px;
+}
+
+#discover-text-dummy2{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#discover-text-dummy3{
+    height: 100px;
+}
+
+#discover-dummy1{
+    height: 100%;
+    width: 100%;
+    
+}
+#discover-dummy2{
+    height: 100%;
+    width: 100%;
+    
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#discover-dummy2 p{
+    color: white;
+}
+
+#discover-dummy3{
+    height: 100%;
+    width: 100%;
+    
+}
+#discover-dummy2 p{
+    font-size: 40px;
+}
+
+
+/* header search bar*/
+#search-container{
+    margin-top: 50px;
+}
+#search-form-dummy1{
+    height: 100px;
+}
+#search-form-dummy2{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#search-form-dummy3{
+    height: 100px;
+}
+#search-dummy1{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#search-dummy3{
+    height: 100%;
+    width: 100%;
+    
+}
+#search-dummy2{
+    height: 100px;
+    width: 100%;
+    
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.form-inline{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#search-dummy4{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/*search bar section*/
+.search-for-location-and-food-bar{
+    display: flex;
+    align-items: center;
+    width: 780px;
+    height: 70px;
+    background: rgb(253, 253, 253);
+    position: relative;
+    justify-content: center;
+    border-radius: 10px;
+}
+.search-location-bar {
+    display: flex;
+    align-items: center;
+}
+.iRDDBk{
+    margin-left: 14px;
+    
+}
+.search-location-bar input{
+    width: 140px;
+    margin-left: 18px;
+    margin-top: 4px;
+    font-size: 17px;
+    font-family: Okra, Helvetica, sans-serif;
+    transform: scaleX(1.1);
+    border: none;
+}
+.ezrcri{
+    margin-left: 85px;
+}
+#vertical-bar{
+    font-size: 26px;
+    padding-left: 7px;
+    color: rgb(189, 189, 189);
+}
+.search-food-bar{
+    display: flex;
+    align-items: center;
+}
+.iwHbVQ{
+    margin-left: 20px;
+}
+.search-food-bar input{
+    width: 310px;
+    margin-left: 30px;
+    margin-top: 4px;
+    font-size: 17px;
+    font-family: Okra, Helvetica, sans-serif;
+    transform: scaleX(1.1);
+    border: none;
+}
+#search-form
+{
+    width: 300px;
+    height: 50px;
+}
+#search-button{
+    height: 50px;
+    margin-left: 30px;
+    background-color: rgb(239, 236, 68);
+}
+#search-button:hover{
+    background-color: brown;
+}
+
+/*oder online box*/
+.cropped-image{
+    object-fit: cover;
+    width: 680px;
+    height: 187px;
+    
+}
+/*order dummy */
+#order-online-dummy1{
+    height: 300px;
+}
+#discover-dummy1{
+    height: 100%;
+    width: 100%;
+    
+}
+#order-online-dummy2{
+    height: 300px;
+    position: relative;
+}
+#discover-dummy2{
+    height: 100%;
+    width: 100%;
+   
+    position: relative;
+}
+#order-online-dummy3{
+    height: 300px;
+}
+#discover-dummy3{
+    height: 100%;
+    width: 100%;
+    
+}
+.order-online-box{
+    margin-top: 200px;
+}
+
+.order-online-section{
+    padding-top: 0px;
+    background: white;
+    width: 680px;
+    height: 290px;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 100;
+    border-width: 1px; /* Change this value to adjust thickness */
+    border-style: solid; /* Border style */
+    border-color: rgb(219, 219, 219); /* Border color */
+}
+.order-align{
+    padding-left: 25px;
+    
+}
+.order-align h1{
+
+    font-size: 23px;
+    color: rgb(69, 69, 69);
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.order-online-section:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/*localies around Bathery*/
+#location-text-dummy1{
+    height: 100px;
+}
+#location-text{
+    margin-top: 50PX;
+}
+#location-dummy1{
+    height: 100%;
+    width: 100%;
+    
+}
+#location-text-dummy2{
+    height: 100px;
+    position: relative;
+}
+#location-dummy2{
+    height: 100%;
+    width: 100%;
+    
+    position: relative;
+}
+#location-dummy2 p{
+    font-size: 40px !important;
+}
+#location-text-dummy3{
+    height: 100px;
+    position: relative;
+}
+#location-dummy3{
+    height: 100%;
+    width: 100%;
+    
+}
+
+/*locality box*/
+#locatlity-box-dummy1{
+    height: 100px;
+}
+#location-dummy1{
+    height: 100%;
+    width: 100%;
+    
+}
+#locatlity-box-dummy2{
+    height: 100px;
+    position: relative;
+}
+#location-dummy2{
+    height: 100%;
+    width: 100%;
+    
+    position: relative;
+}
+/*
+.text-locality p{
+
+}*/
+
+#sulthan-bathery-locality{
+    margin-top: 50px;
+}
+#locatlity-box-dummy1{
+    height: 100px;
+    position: relative;
+}
+#locality-dummy1{
+    height: 100%;
+    width: 100%;
+    
+}
+#locatlity-box-dummy2{
+    height: 100px;
+    position: relative;
+}
+#locality-dummy2{
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    position: sticky;
+    border-width: 1px; 
+    border-style: solid;
+    border-color: rgb(232, 231, 231); 
+    border-radius: 10px;
+}
+#locality-dummy2:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#locality-dummy2 p{
+    font-size: 20px !important;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#locatlity-box-dummy3{
+    height: 100px;
+    position: relative;
+}
+#locality-dummy3{
+    height: 100%;
+    width: 100%;
+    
+    position: relative;
+}
+
+#location-language-dummy2{
+    height: 100px;
+}
+#lola-dummy1{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+
+}
+#lola-dummy1 img{
+    height: 50px;
+    width: 230px;
+}
+#location-language-dummy3{
+    height: 100px;
+}
+#lola-dummy3{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+
+#language-select{
+
+    width: 170px;
+    height: 50px;
+    position: relative;
+    background: url('globe.png') no-repeat left 10px center; /* Flag image */
+    background-size: 30px 25px;
+    padding-left: 50px; /* Create space for the flag */
+    margin-left: 55px;
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+#footer-second-block{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 140px;
+    height: 300px;
+}
+.about-list{
+    padding-left: 0px;
+}
+.about-list ul{
+    list-style: none; 
+    font-size: 20px;
+    padding: 0px;
+    padding-left: 0px;
+}
+
+.about-list li {
+    list-style: none;
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+    padding-left: 0px;
+}
+.zomaverse-list{
+    padding-left: 0px;
+}
+.zomaverse-list ul{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 0px;
+}
+.zomaverse-list li{
+    list-style: none; 
+    font-size: 18px;
+    color: rgb(132, 131, 131);
+    padding-left: 0px;
+}
+.forrestaurants-list{
+    padding-left: 0px;
+
+}
+.forrestaurants-list ul{
+    list-style: none; /* Remove bullet points */
+    font-size: 20px;
+    padding-left: 0px;
+}
+.forrestaurants-list li{
+    list-style: none;
+    font-size: 18px;
+    color: rgb(150, 149, 149);
+    padding-left: 0px;
+}
+.learnmore-list{
+    padding-left: 0px;
+}
+.learnmore-list ul{
+    list-style: none; /* Remove bullet points */
+    font-size: 20px;
+    padding-left: 0px;
+}
+.learnmore-list li{
+    list-style: none;
+    font-size: 18px;
+    color: rgb(150, 150, 150);
+    padding-left: 0px;
+}
+.links p{
+    font-size: 20px;
+    padding-left: 0px;
+}
+.social-links{
+    display: flex;
+    padding-left: 0px;
+}
+#linkedin{
+    width: 27px;
+    height: 27px;
+    padding-left: 0px;
+    margin-top: 7px;
+}
+#insta{
+    width: 40px;
+    height: 40px;
+    margin-left: 3px;
+}
+#twitter{
+    width: 29px;
+    height: 29px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+#youtube{
+    width: 53px;
+    height: 53px;
+    margin-top: -7px;
+    margin-left: -4px;
+}
+#facebook{
+    width: 28px;
+    height: 27.6px;
+    margin-top: 5.9px;
+    margin-left: -4px;
+}
+.stores{
+    margin-left: 100px;
+    margin-top: 20px;
+    display: grid;
+}
+#appstore{
+    width: 165px;
+    height: 48px;
+    border-radius: 10px;
+    margin-left: -100px;
+}
+#playstore{
+    width: 165px;
+    height: 49px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+#footer-second-block ul{
+    margin-top: 50px;
+}
+#footer-second-block p{
+    margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+    #locatlity-box-dummy2 {
+      margin-top: 100px; /* Adjust this value as needed */
+    }
+  }
+
+  body {
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
